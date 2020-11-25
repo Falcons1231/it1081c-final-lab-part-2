@@ -1,0 +1,39 @@
+[ 1601900123.559152]: IMSettings-Daemon[2077]: INFO: Starting imsettings-daemon...
+[ 1601900123.559331]: IMSettings-Daemon[2077]: INFO:   [HOME=/home/user/.config/imsettings]
+[ 1601900123.559383]: IMSettings-Daemon[2077]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1601900123.559428]: IMSettings-Daemon[2077]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1601900123.559472]: IMSettings-Daemon[2077]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1601900123.559518]: IMSettings-Daemon[2077]: INFO:   [MODULES=gsettings]
+
+imsettings information
+==========================
+XINPUTRC: /etc/X11/xinit/xinput.d//none.conf
+	  File: ‘/etc/X11/xinit/xinput.d//none.conf’
+	  Size: 110       	Blocks: 8          IO Block: 4096   regular file
+	Device: fd00h/64768d	Inode: 67771220    Links: 1
+	Access: (0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    root)
+	Access: 2020-10-05 08:06:35.116999185 -0400
+	Modify: 2014-06-10 03:52:06.000000000 -0400
+	Change: 2020-09-02 17:20:02.189476672 -0400
+	 Birth: -
+Is DBus enabled: yes
+Is imsettings enabled: yes
+Is GTK+ supported: yes
+Is Qt supported: no
+DESKTOP: gnome-classic
+GUESS_DESKTOP: $GDMSESSION
+DISABLE_IMSETTINGS: 
+IMSETTINGS_DISABLE_DESKTOP_CHECK: 
+DBUS_SESSION_BUS_ADDRESS: unix:abstract=/tmp/dbus-zcq6h9Rugt,guid=9461209f7613d9656c123eb55f7b0e5b
+GTK_IM_MODULE: 
+QT_IM_MODULE: xim
+XMODIFIERS: @im=none
+IMSETTINGS_MODULE: none
+IMSETTINGS_INTEGRATE_DESKTOP: yes
+
+[ 1601900127.273581]: IMSettings-Daemon[2077]: INFO: Attempting to switch IM to none [lang=en_US.UTF-8, update=false]
+[ 1601900127.635173]: IMSettings-Daemon[2077]: INFO:   no need to invoke any auxiliary process for none
+[ 1601900127.635254]: IMSettings-Daemon[2077]: INFO:   no need to invoke any main process for none
+[ 1601900127.635469]: IMSettings-GSettings backend[2077]: INFO: Setting up gtk-im-context-simple:xim as gtk+ immodule
